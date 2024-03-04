@@ -1,0 +1,18 @@
+main: me.asakura_kukii.siegefishing.SiegeFishing
+version: 0.0.1
+api-version: 1.20
+name: SiegeFishing
+commands:
+  SiegeFishing:
+    description: Main argument for SiegeFishing
+    aliases: [sf]
+permissions:
+  siegefishing.admin:
+    description: 'Gives access to all admin commands for SiegeFishing'
+    children:
+      siegefishing.item: true
+      siegefishing.file: true
+      siegefishing.io: true
+depend: [SiegeCore]
+author:
+   Asakura_kukii
